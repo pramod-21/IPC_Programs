@@ -1,9 +1,3 @@
-/* update_counters_in_shared_memory.c
- * Build: gcc -o shared_counters_sysv shared_counters_sysv.c
- * Run:   ./shared_counters_sysv <num_workers> <num_increments_per_worker>
- * Example: ./shared_counters_sysv 4 100000
- */
-
 #define _XOPEN_SOURCE 700
 #include <stdio.h>
 #include <stdlib.h>
