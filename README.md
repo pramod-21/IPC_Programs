@@ -8,7 +8,7 @@ Example: master + worker processes updating counters in System V shared memory
 * - Each worker also updates its own per-worker counter in shared memory (so master can aggregate)
 *
 Commands to build and run code
-* Build: gcc -o shared_counters_sysv shared_counters_sysv.c
+* Build: gcc -o shared_counters_sysv update_counters__in_shared_memory.c
 * Run: ./shared_counters_sysv <num_workers> <num_increments_per_worker>
 * Example: ./shared_counters_sysv 4 100000
 */
